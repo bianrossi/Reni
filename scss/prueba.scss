@@ -1,0 +1,534 @@
+$margen: 5px;
+$padding: 5px;
+$altura: 100%;
+
+
+
+.menuLista__li{
+    background-color:#c4c4c2;
+    border: none;
+    width: auto;
+}
+
+.footer__a {
+    color: white;
+    position: relative;
+}
+
+.contenedor__a{
+    width: 100%;
+    display: inline-block;
+    flex-basis: 25%;
+    align-self: center;
+    margin: $margen*2;
+}
+
+.menu__a{
+    margin: $margen*2;
+    color: white;
+    position: relative;
+    display: flex;
+}
+
+
+
+.carousel-inner img {
+    margin: auto;
+    height: $altura;
+}
+
+
+
+
+body{
+    background-color: #c4c4c2;
+    margin: 0;
+    justify-content: center;
+}
+
+
+
+#desplegable ul li {
+    background-color:#c4c4c2;
+    border: none;
+    width: auto;
+}
+
+#desplegable ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+#desplegable ul a {
+    display:block;
+    color:#fff;
+    text-decoration:none;
+    font-size:10px;
+    font-family: 'Spartan', sans-serif;
+    letter-spacing:1px;
+}
+
+#desplegable ul li {
+    font-size:10px;
+    font-family: 'Spartan', sans-serif;
+    position:relative;
+    float:left;
+    padding:2px;
+}
+
+#desplegable ul li:hover {
+    background:#48453c;
+}
+
+#desplegable ul ul {
+    display:none;
+    position:absolute;
+    
+    left:0;
+    padding:0;
+}
+
+#desplegable ul ul li {
+    float:none;
+    width:auto;
+}
+
+#desplegable ul ul a {
+    line-height:100%;
+}
+
+#desplegable ul li:hover > ul {
+    display:block;
+}
+
+
+
+
+img .casa{
+    width: 100%;
+    height: $altura;
+}
+
+img{
+    width: 100%;
+    height: $altura;
+    padding: $padding*4;
+}
+
+
+h1{
+    font-family: 'Spartan', sans-serif;
+    color: white;
+    position: relative;
+    font-size: 40pt;
+    border: none;
+    padding-bottom: $padding*2;
+    margin: 0;
+    text-align: center;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+}
+
+
+
+h1 {
+    animation-duration: 15s;
+    animation-name: animate__slideInUp;
+    
+ }
+ 
+ 
+ @keyframes animate__slideInUp {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+ }
+ 
+
+
+.h2{
+    color: #48453c;
+    font-family: 'Spartan', sans-serif;
+    position: relative;
+    font-size: 20pt;
+    text-align: center;
+    letter-spacing: 5px;
+    border: none;
+    padding: $padding*8;
+    margin: $margen*2;
+}
+
+h2{
+    color: #48453c;
+    font-family: 'Spartan', sans-serif;
+    position: relative;
+    font-size: 20pt;
+    text-align: center;
+    letter-spacing: 5px;
+    border: none;
+    padding: $padding*8;
+    margin: $margen*2;
+}
+
+.menu{
+    color: #48453c;
+    font-family: 'Spartan', sans-serif;
+    position: relative;
+    font-size: 10pt;
+    text-align: center;
+    letter-spacing: 3px;
+    border: none;
+    margin: $margen*2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+
+}
+
+.menu a{
+    color: #48453c;
+}
+
+.medio{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.fotoSlide{
+    width: 300px;
+
+}
+
+.contenedor{
+    color: #48453c;
+    font-family: 'Spartan', sans-serif;
+    position: relative;
+    font-size: 20pt;
+    border: none;
+    text-align: center;
+    letter-spacing: 5px;
+    margin: $margen;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+
+}
+
+
+
+nav a{
+    margin: $margen*2;
+    color: white;
+    position: relative;
+    display: flex;
+}
+
+nav a .fotos{
+    width: 100%;
+    display: inline-block;
+    order: 1;
+    flex-basis: 25%;
+    align-self: center;
+    margin: $margen*2;
+
+}
+
+nav a .servicios{
+    width: 100%;
+    display: inline-block;
+    order: 2;
+    flex-basis: 25%;
+    align-self: center;
+    margin: $margen*2;
+    height: 500px;
+
+}
+
+nav a .tarifas{
+    width: 100%;
+    display: inline-block;
+    order: 3;
+    flex-basis: 25%;
+    align-self: center;
+    margin: $margen*2;
+
+}
+
+nav a .contacto{
+    width: 100%;
+    display: inline-block;
+    order: 4;
+    flex-basis: 25%;
+    align-self: center;
+    margin: $margen*2;
+    
+
+}
+
+.cajaMadre{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    opacity: 1;
+}
+
+
+.texto{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.centrado{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+.centrado:hover{
+    background-color: #c4c4c2;
+    color: white;
+    transform: scale(2,2) 8s;
+}
+
+.cajaMadre img:hover{
+    opacity: 0;
+
+}
+
+
+.imagenFotos{
+    text-align: center;
+    margin: $margen*2;
+}
+
+
+
+
+
+#grilla{
+    display: grid;
+    grid-template-areas: 
+    "uno dos"
+    "tres cuatro";
+    width: 100%;
+    height: $altura;
+
+}
+
+.incluido{
+    color: #48453c;
+    font-family: 'Spartan', sans-serif;
+    font-size: 17pt;
+    border: none;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    margin: $margen*2;
+    padding: $padding*6;
+}
+
+ul{
+    color: white;
+    font-family: 'Spartan', sans-serif;
+    font-size: 15pt;
+    border: none;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 30px;
+    margin: $margen*2;
+    padding-top: $padding*2;
+    padding-bottom: $padding*2;
+}
+
+.adicionales{
+    color: #48453c;
+    font-family: 'Spartan', sans-serif;
+    font-size: 17pt;
+    border: none;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    margin: $margen*2;
+    padding: $padding*6;
+
+}
+
+#uno{
+    grid-area: uno;
+    align-self: center;
+    text-align: right;
+}
+
+#dos{
+    grid-area: dos;
+
+}
+
+#tres{
+    grid-area: tres;
+    align-self: center;
+    text-align: right;
+
+
+}
+
+#cuatro{
+    grid-area: cuatro;
+}
+
+
+
+
+
+.tabla{
+    font-family: 'Spartan', sans-serif;
+    font-size: 15pt;
+    text-align:  center;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 100px;
+    margin: $margen*4;
+    padding: $padding*6;
+    align-content: center;
+
+}
+
+table{ 
+    border-top: 10px;
+    border-right: 10px;
+    border-bottom: 10px;
+    border-left: 10px;
+    color: #48453c;
+    padding: $padding*6;
+    margin: auto;
+    display: table;
+}
+
+th{
+    color: #48453c;
+    padding: 15px;
+}
+
+td{
+    color: #48453c;
+    padding-right: $padding*3;
+    padding-left: $padding*3;
+    padding-top: $padding*12;
+    padding-bottom: $padding*12;
+}
+
+button{
+    font-family: 'Spartan', sans-serif;
+    font-size: 15pt;
+    color: #48453c;
+    padding: $padding*2;
+    background-color: white;
+    border-style: double;
+    border-color: #48453c;
+    transition: width 3s;
+    width: auto;
+    text-decoration: none;
+
+
+}
+
+button a{
+    color: #48453c;
+    transition: width 3s;
+    text-decoration: none;
+
+}
+
+button:hover{
+    background-color: #c4c4c2;
+}
+
+
+form{
+    color: white;
+    font-family: 'Spartan', sans-serif;
+    border: none;
+    text-align:  center;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 50px;
+    padding: $padding*6;
+    margin-top: $margen*4;
+    margin-bottom: $margen*4;
+    margin-right: $margen*22;
+    margin-left: $margen*22;
+
+}
+
+legend{
+    color: #48453c;
+    font-size: 17pt;
+}
+
+label{
+    color: white;
+    font-size: 12pt;
+}
+
+footer{
+    background-color: #e0e0dc;
+    font-family: 'Spartan', sans-serif;
+    position: relative;
+    font-size: 15pt;
+    text-align: center;
+    letter-spacing: 5px;
+    margin: $margen*2;
+    padding: $padding*6;
+    border: none;
+    word-spacing: 10px;
+}
+
+
+footer a{
+    color: white;
+    position: relative;
+}
+
+
+footer:hover {
+    color: white;
+}
+
+
+@media (min-width: 768px) and (max-width:992px) {
+    .centrado{
+        width: auto;
+        font-size: 15px;
+        width: 100%;
+        background-color: #c4c4c2;
+    }
+
+    img{
+        padding: 0;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width:768px) {
+    .centrado{
+        width: auto;
+        font-size: 10px;
+        width: 100%;
+        background-color: #c4c4c2;
+    }
+
+    img{
+        padding: 0;
+    }
+
+}
