@@ -6,8 +6,8 @@ $altura: 100%;
 
 .menuLista__li{
     background-color:#c4c4c2;
-    border: none;
-    width: auto;
+    border: 3px;
+    width: fit-content;
 }
 
 .footer__a {
@@ -16,6 +16,7 @@ $altura: 100%;
 }
 
 .contenedor__a{
+
     width: 100%;
     display: inline-block;
     flex-basis: 25%;

@@ -1,7 +1,7 @@
 .menuLista__li {
   background-color: #c4c4c2;
-  border: none;
-  width: auto; }
+  border: 3px;
+  width: fit-content; }
 
 .footer__a {
   color: white;
