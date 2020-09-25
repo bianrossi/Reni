@@ -641,7 +641,7 @@ footer:hover {
 .menuppal{
   background-color: #e3c8aa;
   bottom: 2px;
-  height: 70%;
+  height: 100%;
   overflow-y: scroll;
   position: fixed;
   top: 2px;
